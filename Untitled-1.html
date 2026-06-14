@@ -1,0 +1,219 @@
+import React from "react";
+
+function App() {
+  return (
+    <div className="min-h-screen bg-white">
+
+      {/* Hero Section */}
+      <section className="bg-blue-600 text-white text-center py-20 px-6">
+        <h1 className="text-5xl font-bold mb-4">HackFest 2026</h1>
+        <p className="text-xl mb-4">
+          Build. Innovate. Transform the Future.
+        </p>
+        <p className="mb-6">August 15 - August 17, 2026</p>
+
+        <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100">
+          Register Now
+        </button>
+      </section>
+
+      {/* About Section */}
+      <section className="py-16 px-8">
+        <h2 className="text-3xl font-bold text-center mb-8">
+          About The Hackathon
+        </h2>
+
+        <p className="text-center max-w-3xl mx-auto text-gray-600">
+          HackFest 2026 is a premier innovation event bringing together
+          developers, designers, students, and entrepreneurs to solve
+          real-world challenges through technology.
+        </p>
+
+        <div className="grid md:grid-cols-3 gap-6 mt-10">
+          <div className="p-6 shadow-lg rounded-lg">
+            <h3 className="font-bold text-xl mb-2">Who It's For</h3>
+            <p>Students, developers, designers, and innovators.</p>
+          </div>
+
+          <div className="p-6 shadow-lg rounded-lg">
+            <h3 className="font-bold text-xl mb-2">Why It Matters</h3>
+            <p>Create impactful solutions and gain industry exposure.</p>
+          </div>
+
+          <div className="p-6 shadow-lg rounded-lg">
+            <h3 className="font-bold text-xl mb-2">Opportunities</h3>
+            <p>Networking, mentorship, internships, and prizes.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Timeline */}
+      <section className="bg-gray-100 py-16 px-8">
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Event Timeline
+        </h2>
+
+        <div className="grid md:grid-cols-4 gap-6">
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="font-bold">July 1</h3>
+            <p>Registration Opens</p>
+          </div>
+
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="font-bold">August 1</h3>
+            <p>Submission Deadline</p>
+          </div>
+
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="font-bold">August 10</h3>
+            <p>Judging Begins</p>
+          </div>
+
+          <div className="bg-white p-6 rounded-lg shadow">
+            <h3 className="font-bold">August 15</h3>
+            <p>Results Announced</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Prizes & Tracks */}
+      <section className="py-16 px-8">
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Prizes & Tracks
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-6 mb-10">
+          <div className="bg-yellow-100 p-6 rounded-lg shadow text-center">
+            <h3 className="font-bold text-xl">🥇 First Prize</h3>
+            <p className="text-3xl font-bold mt-3">₹1,00,000</p>
+          </div>
+
+          <div className="bg-gray-200 p-6 rounded-lg shadow text-center">
+            <h3 className="font-bold text-xl">🥈 Second Prize</h3>
+            <p className="text-3xl font-bold mt-3">₹50,000</p>
+          </div>
+
+          <div className="bg-orange-100 p-6 rounded-lg shadow text-center">
+            <h3 className="font-bold text-xl">🥉 Third Prize</h3>
+            <p className="text-3xl font-bold mt-3">₹25,000</p>
+          </div>
+        </div>
+
+        <h3 className="text-2xl font-semibold text-center mb-6">
+          Tracks
+        </h3>
+
+        <div className="grid md:grid-cols-4 gap-4">
+          <div className="border p-4 rounded-lg text-center">
+            AI & Machine Learning
+          </div>
+
+          <div className="border p-4 rounded-lg text-center">
+            FinTech
+          </div>
+
+          <div className="border p-4 rounded-lg text-center">
+            HealthTech
+          </div>
+
+          <div className="border p-4 rounded-lg text-center">
+            Sustainability
+          </div>
+        </div>
+      </section>
+
+      {/* Sponsors */}
+      <section className="bg-gray-100 py-16 px-8">
+        <h2 className="text-3xl font-bold text-center mb-10">
+          Sponsors
+        </h2>
+
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div className="bg-white shadow p-6 text-center rounded">
+            Google
+          </div>
+
+          <div className="bg-white shadow p-6 text-center rounded">
+            Microsoft
+          </div>
+
+          <div className="bg-white shadow p-6 text-center rounded">
+            AWS
+          </div>
+
+          <div className="bg-white shadow p-6 text-center rounded">
+            GitHub
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ */}
+      <section className="py-16 px-8">
+        <h2 className="text-3xl font-bold text-center mb-10">
+          FAQ
+        </h2>
+
+        <div className="max-w-3xl mx-auto space-y-4">
+
+          <details className="border rounded-lg p-4">
+            <summary className="font-semibold cursor-pointer">
+              Who can participate?
+            </summary>
+            <p className="mt-2">
+              Students, professionals, and innovators.
+            </p>
+          </details>
+
+          <details className="border rounded-lg p-4">
+            <summary className="font-semibold cursor-pointer">
+              Is there any registration fee?
+            </summary>
+            <p className="mt-2">
+              No, participation is completely free.
+            </p>
+          </details>
+
+          <details className="border rounded-lg p-4">
+            <summary className="font-semibold cursor-pointer">
+              What is the team size?
+            </summary>
+            <p className="mt-2">
+              Teams can have up to 4 members.
+            </p>
+          </details>
+
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-black text-white py-10 px-8">
+        <div className="grid md:grid-cols-3 gap-8">
+          <div>
+            <h3 className="font-bold mb-2">HackFest 2026</h3>
+            <p>Build. Innovate. Transform the Future.</p>
+          </div>
+
+          <div>
+            <h3 className="font-bold mb-2">Contact</h3>
+            <p>hello@hackfest.com</p>
+            <p>+91 9876543210</p>
+          </div>
+
+          <div>
+            <h3 className="font-bold mb-2">Social Links</h3>
+            <p>LinkedIn</p>
+            <p>Instagram</p>
+            <p>GitHub</p>
+          </div>
+        </div>
+
+        <p className="text-center mt-8">
+          © 2026 HackFest. All Rights Reserved.
+        </p>
+      </footer>
+
+    </div>
+  );
+}
+
+export default App;
